@@ -1,0 +1,19 @@
+{
+  "name": "Cube-helloworld-docker-compose",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "cubejs-server"
+  },
+  "template": "docker",
+  "templateVersion": "0.27.45",
+  "devDependencies": {
+    "@cubejs-backend/postgres-driver": "^0.27.45",
+    "@cubejs-backend/server": "^0.27.45"
+  },
+  "dependencies": {
+    "@cubejs-client/core": "^0.27.41",
+    "@cubejs-client/react": "^0.27.44",
+    "chart.js": "^3.4.0"
+  }
+}
